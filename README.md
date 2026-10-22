@@ -39,20 +39,16 @@ These results describe performance on this dataset and should not be interpreted
 Repository structure
 breast-cancer-ml-benchmark/
 ├── README.md
-
 ├── requirements.txt
-
 ├── .gitignore
-
 ├── notebooks/
-
 │   └── 01_cancer_classification_benchmark.ipynb
 └── Results/
     ├── cross_validation_results.csv
-        ├── logistic_regression_tuning_comparison.csv
-        ├── nested_cv_model_comparison.csv
-        ├── final_test_set_comparison.csv
-            └── final_logistic_regression_confusion_matrix.png
+    ├── logistic_regression_tuning_comparison.csv
+    ├── nested_cv_model_comparison.csv
+    ├── final_test_set_comparison.csv
+    └── final_logistic_regression_confusion_matrix.png
     The notebook generates the result tables and visualizations when run from the expected project structure. The Results/ folder should contain the generated files listed above.
 Reproducibility
 The notebook was tested with Python 3.13. It uses NumPy, pandas, Matplotlib, Seaborn, scikit-learn, and Jupyter Notebook. Random seeds are set for reproducibility.
